@@ -1,0 +1,19 @@
+{
+    "name": "ls-contigent_retired",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "HttpServer",
+        "typeProperties": {
+            "url": "https://directory.inc.hpicorp.net/download/download.cgi?auth_name=cn%3Dteraprod%2Cou%3DApplications%2Co%3Dhp.com&auth_passwd=ED2T$Kx8-*0s&action=download_std&fileid=0000&compress=1",
+            "enableServerCertificateValidation": true,
+            "authenticationType": "Basic",
+            "userName": "teraprod",
+            "encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlYzcwZGMxYy02ZWM2LTQ0N2ItYTM1Ni02ZDU3YTQ2MDAyOTciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+        },
+        "connectVia": {
+            "referenceName": "OlympusSelfHostedIR",
+            "type": "IntegrationRuntimeReference"
+        }
+    }
+}

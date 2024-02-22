@@ -1,0 +1,15 @@
+{
+    "name": "ls-adls",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureBlobFS",
+        "typeProperties": {
+            "url": "https://edpitgidhinboundgateway.dfs.core.windows.net/"
+        },
+        "connectVia": {
+            "referenceName": "OlympusSelfHostedIR",
+            "type": "IntegrationRuntimeReference"
+        }
+    }
+}
