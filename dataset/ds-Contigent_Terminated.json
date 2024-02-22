@@ -1,0 +1,20 @@
+{
+    "name": "ds-Contigent_Terminated",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "contigent_retired",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Binary",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation"
+            },
+            "compression": {
+                "type": "gzip"
+            }
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

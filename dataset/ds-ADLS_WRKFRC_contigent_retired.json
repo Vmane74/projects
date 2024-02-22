@@ -1,0 +1,24 @@
+{
+    "name": "ds-ADLS_WRKFRC_contigent_retired",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_adls",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Binary",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": {
+                    "value": "Contingent_Workers_Terminated_@{formatDateTime(utcnow(), 'yyyyMMddHHmmss')}.txt",
+                    "type": "Expression"
+                },
+                "folderPath": "masterdata/ed/common_dimensions_masterdata/dataingestion/output/contingent_workers_terminated",
+                "fileSystem": "landing"
+            }
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
+
