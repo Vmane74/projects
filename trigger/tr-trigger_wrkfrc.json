@@ -1,0 +1,25 @@
+{
+    "name": "tr-trigger_wrkfrc",
+    "properties": {
+        "description": "Time",
+        "annotations": [],
+        "runtimeState": "Started",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "Contignet_workers_Terminated",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Day",
+                "interval": 1,
+                "startTime": "2024-01-08T06:26:00",
+                "timeZone": "India Standard Time"
+            }
+        }
+    }
+}
