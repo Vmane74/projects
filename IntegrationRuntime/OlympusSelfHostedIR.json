@@ -1,0 +1,13 @@
+{
+    "name": "OlympusSelfHostedIR",
+    "properties": {
+        "type": "SelfHosted",
+        "description": "self hosted IR",
+        "typeProperties": {
+            "linkedInfo": {
+                "resourceId": "/subscriptions/11f3b5a3-f58b-44b9-8b43-e4b8e6dd82ed/resourcegroups/EDPDEV-EBI-RCG-IDH-COMPUTE-GATEWAY/providers/Microsoft.DataFactory/factories/edpitg-idh-adf-core-ir/integrationruntimes/OlympusSelfHostedIR",
+                "authorizationType": "Rbac"
+            }
+        }
+    }
+}
